@@ -1,3 +1,6 @@
-  INSERT INTO burgers (burger_name, devoured) VALUES ("Umami Burgers", false);
-  INSERT INTO burgers (burger_name, devoured) VALUES ("Pug Burger", false);
-  INSERT INTO burgers (burger_name, devoured) VALUES ("Minetta Burger", false);
+INSERT INTO burgers (name) VALUES ('Big Mac');
+INSERT INTO burgers (name) VALUES ('Angus Burger');
+INSERT INTO burgers (name, eat) VALUES ('Cheese Bacon Burger', true);
+INSERT INTO burgers (name, eat) VALUES ('Veggie Burger', true);
+INSERT INTO burgers (name, eat) VALUES ('Cheese Burger', true);
+
